@@ -1,0 +1,101 @@
+# Ignore Visual Studio temporary files, build results, and
+# binary files generated during the build process.
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files (Mono auto generated)
+mono_crash.*
+
+# Mono auto generated files
+mono_crash.*
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Avoid ignoring files in the project directories
+!src/**/bin/
+!src/**/obj/
+
+# VS 2022 directories
+.vscode/
+.vs/
+.vscode/*
+
+# Visual Studio 2022 database/cache files
+*.VC.db
+*.VC.opendb
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+CMakeLists.txt.user
+Makefile
+cmake_install.cmake
+build/
+
+# Windows generated files
+Thumbs.db
+*.DS_Store
+
+# Compiled Object files, Static and Shared libs
+*.obj
+*.o
+*.so
+*.exe
+*.dll
+*.lib
+*.a
+*.lo
+*.la
+
+# Compiled Dynamic libraries (Windows)
+*.dll
+*.pdb
+*.ilk
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Static libraries
+*.lib
+*.a
+
+# Compiled Object files
+*.obj
+*.o
+
+# Static Analysis Configurations
+*.sastconfig
+
+# IDE settings and workspace config
+.idea/
+*.VC.db
+*.VC.opendb
+
+# Ignore any auto-generated docs
+docs/
+
+# Exclude build folders and generated binaries
+out/
+build/
+bin/
